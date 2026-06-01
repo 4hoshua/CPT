@@ -1,0 +1,874 @@
+{
+  "source": "outfile",
+  "device_count": 24,
+  "cable_count": 24,
+  "unresolved_cable_count": 0,
+  "devices": [
+    {
+      "name": "Host 1",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "902827792",
+      "mem_addr": "1021098752",
+      "x": 988.5,
+      "y": 212,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "Host 2",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "883204864",
+      "mem_addr": "900190672",
+      "x": 989.5,
+      "y": 305,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SW_NTI",
+      "category": "Switch",
+      "model": "2960-24TT",
+      "custom_model": "2960 IOS15",
+      "power": true,
+      "description": null,
+      "dev_addr": "882219080",
+      "mem_addr": "140504688270896",
+      "x": 886,
+      "y": 276,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "Power Distribution Device0",
+      "category": "Power Distribution Device",
+      "model": "Power Distribution Device",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "882315936",
+      "mem_addr": "891036080",
+      "x": 3899,
+      "y": 3900,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "NTI",
+      "category": "Router",
+      "model": "ISR4331",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "884302016",
+      "mem_addr": "949116864",
+      "x": 696,
+      "y": 276,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "PROGEP",
+      "category": "Router",
+      "model": "ISR4331",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1027263120",
+      "mem_addr": "1030012640",
+      "x": 742,
+      "y": 424,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "CCT",
+      "category": "Router",
+      "model": "ISR4331",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "950132096",
+      "mem_addr": "1030141328",
+      "x": 424,
+      "y": 281,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "REITORIA",
+      "category": "Router",
+      "model": "ISR4331",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1025182912",
+      "mem_addr": "1028200704",
+      "x": 419,
+      "y": 430,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 5",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1032241776",
+      "mem_addr": "1029505056",
+      "x": 659.5,
+      "y": 657,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 6",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1027000000",
+      "mem_addr": "1027260464",
+      "x": 820.5,
+      "y": 655,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SW_PROGEP",
+      "category": "Switch",
+      "model": "2960-24TT",
+      "custom_model": "2960 IOS15",
+      "power": true,
+      "description": null,
+      "dev_addr": "1032989640",
+      "mem_addr": "1028169712",
+      "x": 740,
+      "y": 529,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 3",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1033245152",
+      "mem_addr": "1033369392",
+      "x": 273.5,
+      "y": 657,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 4",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "968237968",
+      "mem_addr": "1037750432",
+      "x": 388.5,
+      "y": 664,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SW_REITORIA",
+      "category": "Switch",
+      "model": "2960-24TT",
+      "custom_model": "2960 IOS15",
+      "power": true,
+      "description": null,
+      "dev_addr": "1033912472",
+      "mem_addr": "1028076272",
+      "x": 359,
+      "y": 555,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SW1_CCT",
+      "category": "Switch",
+      "model": "2960-24TT",
+      "custom_model": "2960 IOS15",
+      "power": true,
+      "description": null,
+      "dev_addr": "968475608",
+      "mem_addr": "1047171376",
+      "x": 312,
+      "y": 237,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SW2_CCT",
+      "category": "Switch",
+      "model": "2960-24TT",
+      "custom_model": "2960 IOS15",
+      "power": true,
+      "description": null,
+      "dev_addr": "1041316600",
+      "mem_addr": "1047148944",
+      "x": 311,
+      "y": 330,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 7",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1041375824",
+      "mem_addr": "1047566752",
+      "x": 401.5,
+      "y": 145,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 8",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1046400752",
+      "mem_addr": "1044852384",
+      "x": 305.5,
+      "y": 143,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SERVERDNS",
+      "category": "Server",
+      "model": "Server-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1044692400",
+      "mem_addr": "968465936",
+      "x": 199.5,
+      "y": 213,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 9",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1048991296",
+      "mem_addr": "140504689100144",
+      "x": 118.5,
+      "y": 338,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST 10",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1049471104",
+      "mem_addr": "140504689155104",
+      "x": 116.5,
+      "y": 428,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "SERVERHTTP",
+      "category": "Server",
+      "model": "Server-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1053699120",
+      "mem_addr": "1053398048",
+      "x": 222.5,
+      "y": 451,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "ISP",
+      "category": "Router",
+      "model": "ISR4331",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1054037200",
+      "mem_addr": "140504689229120",
+      "x": 731,
+      "y": 180,
+      "cluster_id": "1-1"
+    },
+    {
+      "name": "HOST INTERNET",
+      "category": "Pc",
+      "model": "PC-PT",
+      "custom_model": null,
+      "power": true,
+      "description": null,
+      "dev_addr": "1057582560",
+      "mem_addr": "140504688675168",
+      "x": 576.5,
+      "y": 156,
+      "cluster_id": "1-1"
+    }
+  ],
+  "cables": [
+    {
+      "type": "eCopper",
+      "length": 45.2756,
+      "functional": true,
+      "from": {
+        "device": "Host 1",
+        "dev_addr": "902827792",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:8186268667559809946"
+      },
+      "to": {
+        "device": "SW_NTI",
+        "dev_addr": "882219080",
+        "port": "FastEthernet0/1",
+        "reference": "save-ref-id:16147575983003431820"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 40.3148,
+      "functional": true,
+      "from": {
+        "device": "Host 2",
+        "dev_addr": "883204864",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:4850691637085005396"
+      },
+      "to": {
+        "device": "SW_NTI",
+        "dev_addr": "882219080",
+        "port": "FastEthernet0/2",
+        "reference": "save-ref-id:16147575983003431820"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SW_NTI",
+        "dev_addr": "882219080",
+        "port": "FastEthernet0/3",
+        "reference": "save-ref-id:16147575983003431820"
+      },
+      "to": {
+        "device": "NTI",
+        "dev_addr": "884302016",
+        "port": "GigabitEthernet0/0/0",
+        "reference": "save-ref-id:1743293669238524796"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eSerial",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "NTI",
+        "dev_addr": "884302016",
+        "port": "Serial0/1/0",
+        "reference": "save-ref-id:1743293669238524796"
+      },
+      "to": {
+        "device": "PROGEP",
+        "dev_addr": "1027263120",
+        "port": "Serial0/1/0",
+        "reference": "save-ref-id:13865197315761226758"
+      },
+      "dce": {
+        "device_reference": "save-ref-id:1743293669238524796",
+        "port": "Serial0/1/0"
+      },
+      "geo_view_color": "#1e59a5",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 35.3635,
+      "functional": true,
+      "from": {
+        "device": "HOST 5",
+        "dev_addr": "1032241776",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:13861915630592994736"
+      },
+      "to": {
+        "device": "SW_PROGEP",
+        "dev_addr": "1032989640",
+        "port": "FastEthernet0/1",
+        "reference": "save-ref-id:805726278225917383"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 30.4262,
+      "functional": true,
+      "from": {
+        "device": "HOST 6",
+        "dev_addr": "1027000000",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:10710504454008593889"
+      },
+      "to": {
+        "device": "SW_PROGEP",
+        "dev_addr": "1032989640",
+        "port": "FastEthernet0/2",
+        "reference": "save-ref-id:805726278225917383"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SW_PROGEP",
+        "dev_addr": "1032989640",
+        "port": "FastEthernet0/3",
+        "reference": "save-ref-id:805726278225917383"
+      },
+      "to": {
+        "device": "PROGEP",
+        "dev_addr": "1027263120",
+        "port": "GigabitEthernet0/0/0",
+        "reference": "save-ref-id:13865197315761226758"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eSerial",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "CCT",
+        "dev_addr": "950132096",
+        "port": "Serial0/1/0",
+        "reference": "save-ref-id:14153163836437741508"
+      },
+      "to": {
+        "device": "NTI",
+        "dev_addr": "884302016",
+        "port": "Serial0/1/1",
+        "reference": "save-ref-id:1743293669238524796"
+      },
+      "dce": {
+        "device_reference": "save-ref-id:14153163836437741508",
+        "port": "Serial0/1/0"
+      },
+      "geo_view_color": "#1e59a5",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eSerial",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "CCT",
+        "dev_addr": "950132096",
+        "port": "Serial0/1/1",
+        "reference": "save-ref-id:14153163836437741508"
+      },
+      "to": {
+        "device": "PROGEP",
+        "dev_addr": "1027263120",
+        "port": "Serial0/1/1",
+        "reference": "save-ref-id:13865197315761226758"
+      },
+      "dce": {
+        "device_reference": "save-ref-id:14153163836437741508",
+        "port": "Serial0/1/1"
+      },
+      "geo_view_color": "#1e59a5",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eSerial",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "REITORIA",
+        "dev_addr": "1025182912",
+        "port": "Serial0/1/0",
+        "reference": "save-ref-id:8626066153036049020"
+      },
+      "to": {
+        "device": "PROGEP",
+        "dev_addr": "1027263120",
+        "port": "Serial0/2/0",
+        "reference": "save-ref-id:13865197315761226758"
+      },
+      "dce": {
+        "device_reference": "save-ref-id:8626066153036049020",
+        "port": "Serial0/1/0"
+      },
+      "geo_view_color": "#1e59a5",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 25.5111,
+      "functional": true,
+      "from": {
+        "device": "HOST 3",
+        "dev_addr": "1033245152",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:3036032890984515510"
+      },
+      "to": {
+        "device": "SW_REITORIA",
+        "dev_addr": "1033912472",
+        "port": "FastEthernet0/1",
+        "reference": "save-ref-id:10358039007237020745"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 20.6339,
+      "functional": true,
+      "from": {
+        "device": "HOST 4",
+        "dev_addr": "968237968",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:633281032860858893"
+      },
+      "to": {
+        "device": "SW_REITORIA",
+        "dev_addr": "1033912472",
+        "port": "FastEthernet0/2",
+        "reference": "save-ref-id:10358039007237020745"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SW_REITORIA",
+        "dev_addr": "1033912472",
+        "port": "FastEthernet0/3",
+        "reference": "save-ref-id:10358039007237020745"
+      },
+      "to": {
+        "device": "REITORIA",
+        "dev_addr": "1025182912",
+        "port": "GigabitEthernet0/0/0",
+        "reference": "save-ref-id:8626066153036049020"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "CCT",
+        "dev_addr": "950132096",
+        "port": "GigabitEthernet0/0/0",
+        "reference": "save-ref-id:14153163836437741508"
+      },
+      "to": {
+        "device": "SW1_CCT",
+        "dev_addr": "968475608",
+        "port": "FastEthernet0/1",
+        "reference": "save-ref-id:8435668569294719975"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SW2_CCT",
+        "dev_addr": "1041316600",
+        "port": "FastEthernet0/24",
+        "reference": "save-ref-id:5741843888634211765"
+      },
+      "to": {
+        "device": "SW1_CCT",
+        "dev_addr": "968475608",
+        "port": "FastEthernet0/24",
+        "reference": "save-ref-id:8435668569294719975"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SW2_CCT",
+        "dev_addr": "1041316600",
+        "port": "FastEthernet0/23",
+        "reference": "save-ref-id:5741843888634211765"
+      },
+      "to": {
+        "device": "SW1_CCT",
+        "dev_addr": "968475608",
+        "port": "FastEthernet0/23",
+        "reference": "save-ref-id:8435668569294719975"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 15.8299,
+      "functional": true,
+      "from": {
+        "device": "HOST 7",
+        "dev_addr": "1041375824",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:13003109380740375703"
+      },
+      "to": {
+        "device": "SW1_CCT",
+        "dev_addr": "968475608",
+        "port": "FastEthernet0/2",
+        "reference": "save-ref-id:8435668569294719975"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 11.1936,
+      "functional": true,
+      "from": {
+        "device": "HOST 8",
+        "dev_addr": "1046400752",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:6873664618166481039"
+      },
+      "to": {
+        "device": "SW1_CCT",
+        "dev_addr": "968475608",
+        "port": "FastEthernet0/3",
+        "reference": "save-ref-id:8435668569294719975"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SERVERDNS",
+        "dev_addr": "1044692400",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:243090584910944393"
+      },
+      "to": {
+        "device": "SW1_CCT",
+        "dev_addr": "968475608",
+        "port": "FastEthernet0/4",
+        "reference": "save-ref-id:8435668569294719975"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 7.06332,
+      "functional": true,
+      "from": {
+        "device": "HOST 9",
+        "dev_addr": "1048991296",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:9369883117633252043"
+      },
+      "to": {
+        "device": "SW2_CCT",
+        "dev_addr": "1041316600",
+        "port": "FastEthernet0/1",
+        "reference": "save-ref-id:5741843888634211765"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 4.93646,
+      "functional": true,
+      "from": {
+        "device": "HOST 10",
+        "dev_addr": "1049471104",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:12518674944476040637"
+      },
+      "to": {
+        "device": "SW2_CCT",
+        "dev_addr": "1041316600",
+        "port": "FastEthernet0/2",
+        "reference": "save-ref-id:5741843888634211765"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "SERVERHTTP",
+        "dev_addr": "1053699120",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:1019826948088456099"
+      },
+      "to": {
+        "device": "SW2_CCT",
+        "dev_addr": "1041316600",
+        "port": "FastEthernet0/3",
+        "reference": "save-ref-id:5741843888634211765"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#6ba72e",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eSerial",
+      "length": 1,
+      "functional": true,
+      "from": {
+        "device": "NTI",
+        "dev_addr": "884302016",
+        "port": "Serial0/2/0",
+        "reference": "save-ref-id:1743293669238524796"
+      },
+      "to": {
+        "device": "ISP",
+        "dev_addr": "1054037200",
+        "port": "Serial0/1/0",
+        "reference": "save-ref-id:17530832408387844773"
+      },
+      "dce": {
+        "device_reference": "save-ref-id:1743293669238524796",
+        "port": "Serial0/2/0"
+      },
+      "geo_view_color": "#1e59a5",
+      "managed_in_rack_view": false
+    },
+    {
+      "type": "eCopper",
+      "length": 6.98072,
+      "functional": true,
+      "from": {
+        "device": "HOST INTERNET",
+        "dev_addr": "1057582560",
+        "port": "FastEthernet0",
+        "reference": "save-ref-id:18422576098556769403"
+      },
+      "to": {
+        "device": "ISP",
+        "dev_addr": "1054037200",
+        "port": "GigabitEthernet0/0/0",
+        "reference": "save-ref-id:17530832408387844773"
+      },
+      "dce": {
+        "device_reference": null,
+        "port": null
+      },
+      "geo_view_color": "#f7990d",
+      "managed_in_rack_view": false
+    }
+  ]
+}
