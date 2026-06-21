@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat ~/.claude/skills/graphify/SKILL.md | head -40; echo \"---DIRS---\"; ls ~/.claude/skills/)",
+      "Read(//home/yan/.claude/skills/graphify/**)",
+      "Read(//home/yan/.claude/skills/**)",
+      "Edit(~/.claude/skills/english-coach/**)",
+      "Bash(rm -f backend/test.db)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}

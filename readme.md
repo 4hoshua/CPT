@@ -1,9 +1,57 @@
+# Web app (Docker)
+
+A FastAPI backend + Vite/React frontend wrap the two scripts so they run
+anywhere (including Windows) without WSL. NGINX serves the built frontend and
+reverse-proxies `/api` to the backend.
+
+```
+cp .env.example .env        # edit SECRET_KEY and admin credentials
+docker compose up --build
+```
+
+Then open http://localhost and log in with `INITIAL_ADMIN_USERNAME` /
+`INITIAL_ADMIN_PASSWORD` (defaults: `admin` / `admin`).
+
+Workflow in the UI:
+1. **.pkt → XML** — upload a `.pkt`/`.pka` file, download the decoded XML.
+2. **XML → JSON** — upload that XML, view/download the devices & cables JSON.
+
+## Endpoints
+
+- `POST /api/auth/login` — form login, returns a JWT (`access_token`).
+- `POST /api/convert/xml` — multipart `file=@*.pkt`, returns XML. *(JWT required)*
+- `POST /api/convert/json` — multipart `file=@*.xml`, returns JSON. *(JWT required)*
+
+## Local development
+
+Backend:
+
+```
+cd backend
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload   # http://localhost:8000
+```
+
+Frontend (proxies `/api` to localhost:8000):
+
+```
+cd frontend
+npm install
+npm run dev                      # http://localhost:5173
+```
+
+# Comandos (CLI original)
+
+
  python3 ptexplorer.py -d atv.pkt outfile
  
  python3 extract_devices_cables.py outfile -o topologia.json
 
 
-Quero que configure essa topologia da CISCO seguindo os seguintes critérios e instruções. Me de o comando para os roteadores e switches apenas para copiar e colar, com exceção da configuração SSH, que deve ser exibida em parte. Para os PC e Server me mostre as configurações essenciais para o funcionamento da rede e onde configuraçar.
+# Prompt
+
+Quero que configure essa topologia da CISCO seguindo os seguintes critérios e instruções. Me de o comando para os roteadores e switches apenas para copiar e colar, com exceção da configuração SSH, que deve ser exibida em parte. Para os PC e Server me mostre em uma tabela as informações de Ipv4 Address, Subnet Mask, Default Gateway e DNS server
 
 
 Critérios:
@@ -66,3 +114,51 @@ i) Configure a senha cisco para acessar o modo privilegiado, para que possa conf
 j) Configure os nomes de todos os roteadores, switches e hosts;
 
 k) Conectividade entre todos os hosts, switches e roteadores da Rede;
+
+# WSL
+
+sudo apt update
+sudo apt upgrade -y
+
+sudo apt install -y python3 python3-pip python3-venv build-essential
+
+cd /mnt/f/Downloads/CPT-main/CPT-main
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install twofish pycryptodome
+
+# WSL Alternative Export
+
+mkdir C:\WSL\ptexplorer
+
+wsl --import ptexplorer C:\WSL\ptexplorer C:\Caminho\para\ptexplorer-wsl.tar --version 2
+
+wsl -l -v
+
+wsl -d ptexplorer -- python3 /app/ptexplorer.py -d /mnt/f/Downloads/CPT-main/CPT-main/atv.pkt /mnt/f/Downloads/CPT-main/CPT-main/outfile.xml
+
+# Dockerfile
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY ptexplorer.py /app/ptexplorer.py
+
+RUN python -m pip install --upgrade pip setuptools wheel \
+    && python -m pip install twofish pycryptodome
+
+ENTRYPOINT ["python", "/app/ptexplorer.py"]
+
+docker build -t ptexplorer .
+
+docker run --rm 
+  -v "F:\Downloads\CPT-main\CPT-main:/data" 
+  ptexplorer -d /data/atv.pkt /data/outfile.xml
